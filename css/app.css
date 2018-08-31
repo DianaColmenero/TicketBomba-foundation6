@@ -1,0 +1,74 @@
+/* .row {
+    border: 1px solid red;
+}
+
+.column {
+    border: 1px solid blue;
+} */
+
+body {
+    background: #ee3f54;
+}
+
+h1, h2, h3, h4, h5, h6, button{
+    font-family: 'Bree Serif', serif;
+
+}
+
+#social-container {
+    background: #1c3643;
+}
+
+#logo-container .callout {
+    background: #ee3f54;
+    color: white;
+}
+
+#menu-container {
+    background: antiquewhite;
+}
+
+#menu-container li a {
+    color: black;
+    font-family: 'Bree Serif', serif;
+}
+
+#menu-container a:hover {
+    color: green;
+}
+
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+    border-color: black transparent transparent;
+}
+
+.callout {
+    margin-bottom: 0;
+}
+
+#submenu-container {
+    background: antiquewhite;
+    border: 0;
+}
+
+#tickets-action .callout{
+    background: aliceblue;
+    
+}
+
+/* #tickets-action .callout button{
+    color: white;
+    border: solid 1px white;
+} */
+
+#lineup-container {
+    background: #1c3643;
+    color: white;
+    
+}
+
+#lineup-container h3 {
+    margin-bottom: 0;
+}
+
+
+
