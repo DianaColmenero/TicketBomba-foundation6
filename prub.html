@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+    <button onclick="myFunction()">Answer</button>
+
+    <p id="demo"></p>
+
+    <script>
+        var answer;
+        var movie = monja;
+        var monja = "terror";
+        function myFunction() {
+            // console.log("test");
+            
+            if (monja !== "terror") {       
+               answer = "¡Vamos pues!";                              
+            } else {
+                answer = "¡Que miedo! ¡No voy!";
+            }
+            document.getElementById("demo").innerHTML = answer;
+        }
+        // myFunction();
+        // console.log(movie);
+        
+       
+    </script>
+
+</body>
+
+</html>

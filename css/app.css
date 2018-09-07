@@ -10,7 +10,7 @@ body {
     background: #ee3f54;
 }
 
-h1, h2, h3, h4, h5, h6, button{
+h1, h2, h3, h4, h5, h6, button {
     font-family: 'Bree Serif', serif;
 
 }
@@ -25,7 +25,7 @@ h1, h2, h3, h4, h5, h6, button{
 }
 
 #menu-container {
-    background: antiquewhite;
+    background: #e79e31;
 }
 
 #menu-container li a {
@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6, button{
 }
 
 #menu-container a:hover {
-    color: green;
+    color: white;
 }
 
 .dropdown.menu > li.is-dropdown-submenu-parent > a::after {
@@ -46,29 +46,136 @@ h1, h2, h3, h4, h5, h6, button{
 }
 
 #submenu-container {
-    background: antiquewhite;
+    background: #e79e31;
     border: 0;
 }
 
 #tickets-action .callout{
-    background: aliceblue;
+    background: #ee3f54;
+    color: white;
     
+}
+
+#tickets-action button {
+    font-size: 18px;
+font-family: 'Bree Serif', serif;
+}
+
+#tickets-action button:hover {
+    background: #1c3643;
+    color: aliceblue;
 }
 
 /* #tickets-action .callout button{
     color: white;
     border: solid 1px white;
 } */
-
 #lineup-container {
+    padding: 1em 0;
+}
+
+#lineup-container,
+#lineup-container .tabs-panel,
+#lineup-container .tabs,
+#lineup-container .tabs .tabs-title,
+#lineup-container .tabs .tabs-title.is-active a {
     background: #1c3643;
     color: white;
-    
+    border: 0;
+    text-transform: uppercase;
+}
+
+.tabs-content {
+    border: 0;
 }
 
 #lineup-container h3 {
     margin-bottom: 0;
 }
 
+#lineup-container .tabs-title a {
+font-size: 18px;
+font-family: 'Bree Serif', serif;
+color: #a7fffb;
+}
 
+#lineup-container .tabs-title a:hover {
+    color: white;
+    background: #1c3643;
+}
 
+.tabs-title {
+    display: inline-block;
+    float: none;
+}
+
+#lineup-container .orbit-container {
+    margin-bottom: 1em;
+    height: auto !important;
+}
+
+#lineup-container .column:nth-child(odd) figcaption {
+    text-align: right
+}
+
+#ticket-container {
+    padding: 1em 0;
+    background: #f5e15f;
+    color: black;
+}
+
+.pricing-table {
+    border: 1px solid #161742;
+    font-family: 'New Rocker', cursive;
+    margin-left: 0;
+}
+
+.pricing-table li,
+.pricing-table li.description,
+.pricing-table a.button {
+    font-size: 20px;
+}
+
+.pricing-table li.price,
+.pricing-table li.title {
+    font-size: 30px;
+}
+
+#info-container {
+    background: #1c3643;
+    color: white;
+    padding: 1em 0;
+}
+
+#subscribe-container {
+    background: #ee3f54;
+    color: white;
+    padding: 1em 0;
+}
+
+#subscribe-container h3 small {
+    color: #ffcddc;
+}
+
+#subscribe-container input[type="submit"] {
+    font-family: 'Bree Serif', serif;
+}
+
+#subscribe-container .error-container {
+    font-family: 'Bree Serif', serif;
+}
+
+.data-sticky {
+    z-index: 1000;
+}
+
+.is-invalid-input:not(:focus) {
+    background: hsl(0, 25%, 54%);
+    border-color: hsl(0, 25%, 54%);
+
+}
+
+/* #info-container .info-map{
+    width: 1000px;
+
+} en el map.html esta el width*/
